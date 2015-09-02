@@ -1,0 +1,4 @@
+- hosts: localSde
+  name: Install library
+  roles:
+    - { role: mysql }
